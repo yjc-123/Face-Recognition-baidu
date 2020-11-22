@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/one/one",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "远程监控开关",
+    "navigationBarTextStyle":"black",
+    "renderingMode": "seperated"
+  },
+  "tabBar": {
+    "list": [{
+      "custom": true,
+      "selectedColor": "#FE9132",
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/pages/pic/2.png",
+      "selectedIconPath": "/pages/pic/2.png"
+    },{
+      "custom": true,
+      "selectedColor": "#FE9132",
+      "pagePath": "pages/one/one",
+      "text": "测试",
+      "iconPath": "/pages/pic/1.png",
+      "selectedIconPath": "/pages/pic/1.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

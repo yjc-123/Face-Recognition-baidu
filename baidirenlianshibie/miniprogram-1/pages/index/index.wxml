@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <button class="k" form-type="submit">开启/关闭</button>
+  <switch type="checked" bindtap="tap"></switch>
+</view>
+
+<view>
+<button open-type = "contact" class = "l">联系客服</button>
+</view>
